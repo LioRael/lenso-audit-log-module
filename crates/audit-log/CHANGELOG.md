@@ -1,7 +1,4 @@
----
-packages:
-  lenso-module-audit-log: patch
----
+## lenso-module-audit-log@0.1.1
 
 ### Fixes
 

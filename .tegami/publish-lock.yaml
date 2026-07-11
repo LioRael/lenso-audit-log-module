@@ -1,0 +1,9 @@
+core:changelogs:
+  - content: "---\npackages:\n  lenso-module-audit-log:\n    type: patch\n---\n\n### Fixes\n\nValidate the reviewed Shadow release control plane end to end.\nExercise the corrected release-plan handoff.\nRegenerate the digest-bound plan after the coordinator token scope correction.\n"
+    filename: release.md
+    v: 0.0.0
+core:packages:
+  - changelogIds:
+      - release.md
+    id: cargo:lenso-module-audit-log
+    updated: true
