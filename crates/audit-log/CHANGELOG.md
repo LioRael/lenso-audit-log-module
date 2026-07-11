@@ -1,3 +1,9 @@
+## lenso-module-audit-log@0.1.3
+
+### Fixes
+
+Validate the complete Shadow release chain with ancestry-aware preflight.
+
 ## lenso-module-audit-log@0.1.2
 
 ### Fixes
