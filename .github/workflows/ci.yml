@@ -24,5 +24,6 @@ jobs:
       - name: Verify reviewed release plan and package
         if: ${{ startsWith(github.head_ref, 'release/') }}
         run: |
+          cargo fetch --locked
           node scripts/release-plan.mjs --verify
           cargo package --locked --allow-dirty -p lenso-module-audit-log
