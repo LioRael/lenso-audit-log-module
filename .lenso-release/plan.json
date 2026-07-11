@@ -1,0 +1,59 @@
+{
+  "schema": "lenso.release-plan.v1",
+  "repository": "LioRael/lenso-audit-log-module",
+  "sourceCommit": "987bb3e2558f6d6910ddd82b57b86feebd535d90",
+  "tegamiVersion": "1.2.5",
+  "publisher": {
+    "workflow": ".github/workflows/publish.yml",
+    "workflowSha256": "sha256:87587fa088db97da02ccad5045dc9755df49527b25d1c7feb01d400c194008ab",
+    "sharedRevision": "84dad4a320515cbd53fb4c4a0943f6e015616bd5",
+    "sharedBundleSha256": "sha256:5d862c1c57d9ce2a61954933b3f0f308b1e1d74f6c840ecd5b688d150fd4abea",
+    "runner": "ubuntu-24.04",
+    "node": "24.18.0",
+    "npm": "11.7.0",
+    "rust": "1.94.0"
+  },
+  "generatedFiles": [
+    {
+      "path": ".tegami/publish-lock.yaml",
+      "sha256": "sha256:a1388ea6380d19dfc9f3bce7621689a2c11eedcfbbe1163517d88d3c8c016e26"
+    },
+    {
+      "path": "Cargo.lock",
+      "sha256": "sha256:162bc3f0abeb3d8b3f81f80730a1ece46b62ce69a3736f501cdd0cc54a85d007"
+    },
+    {
+      "path": "crates/audit-log/CHANGELOG.md",
+      "sha256": "sha256:61ce474567e11798752a9335e132104d20b446278679ed20eb5e01d3ae8be6ad"
+    },
+    {
+      "path": "crates/audit-log/Cargo.toml",
+      "sha256": "sha256:00240903729032882b647861031f64c7f43317f75d22ff16ec9f7da10614defe"
+    }
+  ],
+  "packages": [
+    {
+      "id": "cargo:lenso-module-audit-log",
+      "previousVersion": "0.1.0",
+      "nextVersion": "0.1.1",
+      "bump": "patch",
+      "releaseGroup": "modules",
+      "userFacing": true,
+      "dependencies": [
+        {
+          "id": "cargo:lenso-platform-core",
+          "requirement": "^0.1.4",
+          "resolvedVersion": "0.1.5",
+          "source": "registry"
+        },
+        {
+          "id": "cargo:lenso-platform-module",
+          "requirement": "^0.1.2",
+          "resolvedVersion": "0.1.4",
+          "source": "registry"
+        }
+      ]
+    }
+  ],
+  "planId": "sha256:99616a8eed17c41029cd9a611ee7d03af754ca889c91169d982dd7eae00b1e84"
+}
