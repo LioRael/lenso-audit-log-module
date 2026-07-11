@@ -1,3 +1,9 @@
+## lenso-module-audit-log@0.1.2
+
+### Fixes
+
+Validate the final Shadow release chain against the current publisher runtime.
+
 ## lenso-module-audit-log@0.1.1
 
 ### Fixes
